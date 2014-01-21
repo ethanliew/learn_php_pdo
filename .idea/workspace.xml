@@ -6,6 +6,16 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/index.php" changelist="0b1d6285-496a-41f8-a10b-6f97ff4a80c2" time="1390180545888" ignored="false" />
     <file path="/CPerson.php" changelist="0b1d6285-496a-41f8-a10b-6f97ff4a80c2" time="1389867415452" ignored="false" />
+    <file path="$PROJECT_DIR$/../nfcfactory/db.php" changelist="0b1d6285-496a-41f8-a10b-6f97ff4a80c2" time="1390315853166" ignored="false" />
+    <file path="/db.php" changelist="0b1d6285-496a-41f8-a10b-6f97ff4a80c2" time="1390315224281" ignored="false" />
+    <file path="$PROJECT_DIR$/../nfcfactory/testdb.php" changelist="0b1d6285-496a-41f8-a10b-6f97ff4a80c2" time="1390315399662" ignored="false" />
+    <file path="$PROJECT_DIR$/../nfcfactory/cls_person.php" changelist="0b1d6285-496a-41f8-a10b-6f97ff4a80c2" time="1390316344341" ignored="false" />
+    <file path="/cls_person.php" changelist="0b1d6285-496a-41f8-a10b-6f97ff4a80c2" time="1390316342819" ignored="false" />
+    <file path="$PROJECT_DIR$/../nfcfactory/testpdo.php" changelist="0b1d6285-496a-41f8-a10b-6f97ff4a80c2" time="1390316667094" ignored="false" />
+    <file path="$PROJECT_DIR$/../nfcfactory/cls_db.php" changelist="0b1d6285-496a-41f8-a10b-6f97ff4a80c2" time="1390315921907" ignored="false" />
+    <file path="/cls_db.php" changelist="0b1d6285-496a-41f8-a10b-6f97ff4a80c2" time="1390315842817" ignored="false" />
+    <file path="/testpdo.php" changelist="0b1d6285-496a-41f8-a10b-6f97ff4a80c2" time="1390316583582" ignored="false" />
+    <file path="/a.dummy" changelist="0b1d6285-496a-41f8-a10b-6f97ff4a80c2" time="1390316363455" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +38,7 @@
       <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="189" selection-end="189" vertical-scroll-proportion="-3.9830189">
+            <state line="149" column="25" selection-start="4966" selection-end="4966" vertical-scroll-proportion="0.1754717">
               <folding>
                 <element signature="e#6#130#0" expanded="true" />
               </folding>
@@ -36,19 +46,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CPerson.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CPerson.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="0" selection-start="193" selection-end="193" vertical-scroll-proportion="-5.428571">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="CPerson2.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CPerson2.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="17" selection-start="202" selection-end="202" vertical-scroll-proportion="-4.75">
+            <state line="16" column="17" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -103,6 +104,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -123,12 +125,13 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="recentsLimit" value="5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="PublishConfig">
     <servers>
@@ -207,7 +210,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13181818" sideWeight="0.7446103" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13636364" sideWeight="0.7446103" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2540193" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -304,7 +307,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="137" column="18" selection-start="4706" selection-end="4706" vertical-scroll-proportion="0.0">
+        <state line="14" column="0" selection-start="189" selection-end="189" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#6#130#0" expanded="true" />
           </folding>
@@ -313,21 +316,67 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CPerson.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="193" selection-end="193" vertical-scroll-proportion="-5.428571">
+        <state line="17" column="0" selection-start="193" selection-end="193" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CPerson2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="17" selection-start="202" selection-end="202" vertical-scroll-proportion="-4.75">
+        <state line="16" column="17" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="189" selection-end="189" vertical-scroll-proportion="-3.9830189">
+        <state line="130" column="14" selection-start="4614" selection-end="4614" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#6#130#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CPerson.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="193" selection-end="193" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CPerson2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="17" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="137" column="18" selection-start="4706" selection-end="4706" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#6#130#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CPerson2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="17" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CPerson.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="1" selection-start="328" selection-end="328" vertical-scroll-proportion="0.48987108">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="149" column="25" selection-start="4966" selection-end="4966" vertical-scroll-proportion="0.1754717">
           <folding>
             <element signature="e#6#130#0" expanded="true" />
           </folding>

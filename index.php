@@ -145,3 +145,33 @@ try {
 }
 
 
+
+#very good example
+/* database connection */
+try
+{
+    $connection = new PDO('mysql:host='.DB_HOST.';dbname='.DB_NAME,DB_USER,DB_PASSWORD);
+}
+catch(PDOException $e)
+{
+    echo 'Connection failed: ' . $e->getMessage();
+    exit;
+}
+
+/* the class with properties to be filled with data */
+class User
+{
+    public $id;
+    public $username;
+    public $name;
+    public $email;
+}
+
+/* fetch tb_user data into User instance */
+$stmt = $connection->prepare('SELECT id, username, name, email FROM `tb_user` WHERE id=1');
+$stmt->setFetchMode(PDO::FETCH_INTO, new User());
+$stmt->execute();
+$user1 = $stmt->fetch();
+
+/* print user1 data */
+print_r($user1);
